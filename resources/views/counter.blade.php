@@ -14,12 +14,6 @@
         @livewire('counter', ['count' => 20])
         <hr>
 
-        <hr>
-        <livewire:show-posts />
-        <hr>
-
-        <livewire:post.view :count="15" />
-
         @livewireScripts
     </body>
 </html>
