@@ -13,3 +13,7 @@ Route::get('/include', function(){
 Route::get('/upload', function(){
     return view('upload');
 });
+
+Route::get('/validation', function(){
+    return view('validation');
+});
