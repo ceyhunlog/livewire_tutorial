@@ -8,8 +8,18 @@
         @livewireStyles
     </head>
     <body>
-        <p>Test</p>
-        @livewire('counter')
+        <p>Livewire</p>
+        
+        <hr>
+        @livewire('counter', ['count' => 20])
+        <hr>
+
+        <hr>
+        <livewire:show-posts />
+        <hr>
+
+        <livewire:post.view :count="15" />
+
         @livewireScripts
     </body>
 </html>
